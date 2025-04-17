@@ -156,3 +156,7 @@ elif choice == "Retrieve Data":
                     st.success(f"✅ Decrypted: {result}")
                 else:
                     st.error("❌ Incorrect passkey or corrupted data.")
+
+# Footer credit
+st.markdown("---")
+st.markdown("<center>✨ Created by Faria Usman ✨</center>", unsafe_allow_html=True)
